@@ -1,0 +1,14 @@
+ {
+	"id": "Promenade-Road-001",
+	"type": "Road",
+	"name": "001",
+	"alternateName": "Promenade des Anglais",
+	"description": "Voie de la promenade des anglais",
+	"roadClass": "bus",
+	"length": null,
+	"refRoadSegment": [
+		"001-RoadSegment-Promenade-des-Anglais-forward",
+		"001-RoadSegment-Promenade-des-Anglais-backward"
+	],
+	"responsible": ""
+}

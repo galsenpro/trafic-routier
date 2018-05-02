@@ -1,0 +1,66 @@
+{
+	"id": "001-RoadSegment-Promenade-des-Anglais-forward",
+	"type": "RoadSegment",
+	"name": "Promenade des Anglais",
+	"category": [
+		"oneway"
+	],
+	"refRoad": "Promenade-Road-001",
+	"startPoint": {
+		"type": "Point",
+		"coordinates": [
+			7.26356802300006,
+			43.6948119020001
+		]
+	},
+	"endPoint": {
+		"type": "Point",
+		"coordinates": [
+			7.25609683800008,
+			43.693678714
+		]
+	},
+	"allowedVehicleType": [
+		"car",
+		"bus",
+		"lorry",
+		"trailer",
+		"tanker",
+		"van",
+		"caravan"
+	],
+	"location": {
+		"type": "LineString",
+		"coordinates": [
+			[
+				7.26356802300006,
+				43.6948119020001
+			],
+			[
+				7.26106466500005,
+				43.6946128810001
+			],
+			[
+				7.25870283800009,
+				43.6942554870001
+			],
+			[
+				7.25744283300008,
+				43.693980879
+			],
+			[
+				7.25609683800008,
+				43.693678714
+			]
+		]
+	},
+	"laneUsage": [
+		"forward",
+		"backward"
+	],
+	"source": "http://source...."/*
+	"totalLaneNumber": 2,
+	"maximumAllowedSpeed": 120,
+	"minimumAllowedSpeed": 60,
+	*/
+}

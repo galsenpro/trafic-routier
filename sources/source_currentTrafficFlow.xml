@@ -1,0 +1,36 @@
+<d2LogicalModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://datex2.eu/schema/1_0/1_0"
+	modelBaseVersion="1.0">
+	<exchange>
+		<supplierIdentification>
+			<country>fr</country>
+			<nationalIdentifier>200030195</nationalIdentifier>
+		</supplierIdentification>
+	</exchange>
+	<payloadPublication xsi:type="ElaboratedDataPublication"
+		lang="fr">
+		<publicationTime>2017-11-23T13:57:33.0223647+01:00</publicationTime>
+		<publicationCreator>
+			<country>fr</country>
+			<nationalIdentifier>200030195</nationalIdentifier>
+		</publicationCreator>
+		<headerInformation>
+			<confidentiality>noRestriction</confidentiality>
+			<informationStatus>real</informationStatus>
+		</headerInformation>
+		<elaboratedData id="AUGUSTIN.COMPTAGE.LINDBERGH.VECTEUR.231">
+			<sourceInformation>
+				<sourceIdentification>200030195/NCA/MADO</sourceIdentification>
+			</sourceInformation>
+			<basicDataValue xsi:type="TrafficStatusValue">
+				<time>2017-11-23T13:57:02+01:00</time>
+				<affectedLocation>
+					<locationContainedInGroup xsi:type="LocationByReference">
+						<predefinedLocationReference>231</predefinedLocationReference>
+					</locationContainedInGroup>
+				</affectedLocation>
+				<trafficStatus>impossible</trafficStatus>
+			</basicDataValue>
+		</elaboratedData>
+	</payloadPublication>
+</d2LogicalModel>

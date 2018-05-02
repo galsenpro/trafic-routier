@@ -1,0 +1,29 @@
+{
+	"id": "TrafficFlowObserved-Promenade-des-Anglais",
+	"type": "TrafficFlowObserved",
+	"laneId": "AUGUSTIN.COMPTAGE.PVOIE.VL.VIT.06088AA1215_001_1",
+	"address": {
+		"streetAddress": "Promenade des Anglais",
+		"addressLocality": "NICE",
+		"addressCountry": "ES"
+	},
+	"refRoadSegment": "001-RoadSegment-Promenade-des-Anglais-forward",
+	"predefinedLocationReference": "06088AA1215_001_1",
+	"dateModified": "2017-11-23T13:57:02+01:00",
+	"dateObserved": "2016-12-07T11:10:00/2016-12-07T11:15:00",
+	"dateObservedFrom": "2016-12-07T11:10:00",
+	"dateObservedTo": "2016-12-07T11:15:00",
+	"occupancy": 1,
+	"averageVehicleSpeed": 66,
+	"laneDirection": "forward",
+	"congested": false
+	/*
+	"averageHeadwayTime":  12,	
+	"averageGapDistance": 2,
+	"averageHeadwayTime": 0.5,
+	"intensity": 197,
+	"capacity": 0.76,
+	"averageVehicleLength": 9.87,
+	"reversedLane": false
+	*/
+}    
